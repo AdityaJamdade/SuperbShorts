@@ -1,0 +1,18 @@
+@import '../../constants/colors.css';
+
+.navbar {
+  display: flex;
+  height: 10vh;
+  background-color: var(--secondary-color);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar-title{
+  font-size: 25px;
+  font-weight: bolder;
+  margin-right: 50px;
+}

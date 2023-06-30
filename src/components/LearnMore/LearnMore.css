@@ -1,0 +1,20 @@
+@import '../../constants/colors.css';
+
+.outer-container{
+    min-height: 75vh;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1, h3{
+    max-width: 60vw;
+    text-align: center;
+}
+button{
+    color: black;
+    margin-top: 30px;
+}
