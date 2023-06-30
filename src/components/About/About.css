@@ -1,0 +1,54 @@
+@import "../../constants/colors.css";
+
+.about-container {
+  background-color: var(--accent-color);
+  min-height: 80vh;
+  margin-top: -20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+img {
+  max-width: 500px;
+  margin-right: 40px;
+  border-radius: 25px;
+}
+.about-text {
+    margin-top: -50px;
+}
+.about-content {
+  margin-top: 20px;
+  max-width: 80%;
+  margin: auto;
+  text-align: left;
+  font-weight: 600;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+
+/* Responsive layout */
+@media (max-width: 1024px) {
+    .about-container {
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+    }
+  
+    img {
+      margin: 20px 0px;
+      order: 2;
+      width: 80vw;
+    }
+  
+    .about-text {
+      margin-top: 0;
+    }
+  
+    .about-content {
+      max-width: 80%;
+    }
+  }

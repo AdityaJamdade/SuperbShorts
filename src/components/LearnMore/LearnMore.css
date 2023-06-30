@@ -1,7 +1,7 @@
 @import '../../constants/colors.css';
 
 .outer-container{
-    min-height: 75vh;
+    min-height: 70vh;
     background-color: var(--primary-color);
     color: var(--background-color);
     display: flex;
@@ -16,5 +16,12 @@ h1, h3{
 }
 button{
     color: black;
-    margin-top: 30px;
+    margin-top: 20px;
 }
+
+/* Responsive layout */
+@media (max-width: 767px) {
+    .outer-container {
+      padding: 40px;
+    }
+  }
